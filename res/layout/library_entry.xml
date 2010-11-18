@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="40dip">
+  <CheckBox android:id="@+id/library_entry_check"
+  	android:layout_width="40dip"
+  	android:layout_height="match_parent"
+  	android:focusable="false" />
+  <TextView android:id="@+id/library_entry_title" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="match_parent" 
+  	android:layout_weight="1"
+  	android:text="title"
+  	android:maxLines="1"
+  	android:gravity="center_vertical" />
+  <TextView android:id="@+id/library_entry_artist" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="match_parent" 
+  	android:layout_weight="1"
+  	android:text="artist"
+  	android:maxLines="1"
+  	android:gravity="center_vertical" />
+  <TextView android:id="@+id/library_entry_album" 
+  	android:layout_width="match_parent" 
+  	android:layout_height="match_parent" 
+  	android:layout_weight="1"
+  	android:text="album"
+  	android:maxLines="1"
+  	android:gravity="center_vertical" />
+  <TextView android:id="@+id/library_entry_duration" 
+  	android:layout_width="50dip" 
+  	android:layout_height="match_parent" 
+  	android:text="0:00"
+  	android:gravity="right|center_vertical" />
+</LinearLayout>
